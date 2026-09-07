@@ -1,11 +1,12 @@
 
 import './App.css'
-
+import Header from './components/Header/Header.jsx'
 function App() {
   return (
-    <div>
-      <h1>Lou-Loki</h1>
-    </div>
+  <>
+  <Header />
+  </>
+  
   )
 }
 
