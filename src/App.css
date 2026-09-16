@@ -3,11 +3,17 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+  display: contents;
 }
 .section {
   padding: var(--section-padding) 0;
 }
+@media (max-width: 968px) {
+  .container {
+    padding: 0 20px;
 
+  }
+}
 
 @media (max-width: 768px) {
   .container {

@@ -1,0 +1,28 @@
+.galery {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.galery__image {
+
+}
+.galery__images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.galery__item {
+  flex: 0 0 275px;
+  height: 206px;
+}
+.galery__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: zoom-in;
+}
