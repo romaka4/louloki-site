@@ -26,3 +26,9 @@
   display: block;
   cursor: zoom-in;
 }
+
+@media (max-width: 550px) {
+  .galery__item {
+    flex: 0 0 380px;
+  }
+}

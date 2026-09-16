@@ -63,6 +63,7 @@
   }
   .about__img {
     width: 510px;
+    height: 420px;
     position: relative;
   }
   .concept__button {
@@ -76,6 +77,7 @@
 
 @media (max-width: 550px) {
   .about {
-    padding: 25px;
+    padding: 20px 0px;
   }
+  
 }

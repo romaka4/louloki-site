@@ -98,7 +98,7 @@
 }
 @media (max-width: 667px) {
   .dishes {
-    padding: 25px;
+    padding: 0;
   }
   .dishes__item {
     flex: 0 0 200px;
