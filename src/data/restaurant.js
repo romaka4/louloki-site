@@ -26,6 +26,7 @@ import galery8 from '../assets/galery/galery8.png'
 export const restaurants = [
 {
   id: 'pushkinskaya',
+  title: 'Lou loki Пушкинская:',
   address: "Пушкинская 192",
   icon: icon,
   phone: "+7 (938) 180-97-77",
@@ -36,6 +37,7 @@ export const restaurants = [
 
 {
   id: 'kirovskiy',
+  title: 'Lou loki Кировский:',
   address: "Кировский 192",
   icon: location,
   phone: "+7 (938) 180-97-77",

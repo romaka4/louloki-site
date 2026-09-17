@@ -1,0 +1,38 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 290px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.contact__title {
+  margin-bottom: 0px;
+}
+.contact__description {
+
+}
+
+@media(max-width: 658px) {
+  .contacts__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__item{
+    margin: 0;
+  }
+  .contact__title, .contact__link, .contact__description, .contact__time {
+    text-align: center;
+  }
+}
