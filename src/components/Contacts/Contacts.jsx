@@ -30,7 +30,7 @@ function Contacts() {
             </div>
 
         </div>
-        <a href="https://eda.yandex.ru/?redirectFrom=not_found_place" className='hero__btn-delivery' target="_blank">
+        <a href="https://eda.yandex.ru/?redirectFrom=not_found_place" className='hero__btn-delivery contact__btn' target="_blank">
           <span className='hero__btn-text'>Заказать доставку онлайн</span>
         </a>
       </div>

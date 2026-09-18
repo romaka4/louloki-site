@@ -6,11 +6,19 @@ import { galeryPhoto } from '../../data/restaurant'
 function Galery() {
   const [ currentIndex, setCurrentIndex ] = React.useState(null);
 
-  // const back = (event)=> {
-  //   if (event !== img) {
-  //     setCurrentIndex(null);
-  //   }
-  // }
+  
+
+  const prevPhoto = ()=> {
+    setCurrentIndex((prev)=> 
+      ( prev - 1 +  galeryPhoto.length ) % galeryPhoto.length
+  )
+  }
+
+  const nextPhgoto = () =>{
+    setCurrentIndex((prev) =>
+    (prev + 1) % galeryPhoto.length
+    )
+  }
   return (
     <section className='container'>
       <div className='galery'>
@@ -33,8 +41,10 @@ function Galery() {
                       setCurrentIndex(null);
                     }
                   }}>
-                    <img className='dishes-modal__img' src={galeryPhoto[currentIndex].image} alt={galeryPhoto[currentIndex].title}
-                     />
+                    <button className='dishes-modal__close' onClick={()=> setCurrentIndex(null)}>X</button>
+                    <button className='dishes-modal__prev' onClick={prevPhoto} >←</button>
+                    <img className='dishes-modal__img' src={galeryPhoto[currentIndex].image} alt={galeryPhoto[currentIndex].title}/>
+                    <button className='dishes-modal__next' onClick={nextPhgoto} >→</button>
                   </div>
                 )
 

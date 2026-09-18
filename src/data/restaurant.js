@@ -27,7 +27,7 @@ export const restaurants = [
 {
   id: 'pushkinskaya',
   title: 'Lou loki Пушкинская:',
-  address: "Пушкинская 192",
+  address: "Пушкинская 192/93",
   icon: icon,
   phone: "+7 (938) 180-97-77",
   workingHours: "11:00-12:00",
@@ -38,7 +38,7 @@ export const restaurants = [
 {
   id: 'kirovskiy',
   title: 'Lou loki Кировский:',
-  address: "Кировский 192",
+  address: "Кировский 57",
   icon: location,
   phone: "+7 (938) 180-97-77",
   workingHours: "11:00-12:00",

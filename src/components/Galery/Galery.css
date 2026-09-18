@@ -7,6 +7,10 @@
 .galery__image {
 
 }
+.dishes__title {
+  margin-top: 150px;
+  text-transform: uppercase;
+}
 .galery__images {
   display: flex;
   flex-direction: row;
@@ -30,5 +34,8 @@
 @media (max-width: 550px) {
   .galery__item {
     flex: 0 0 380px;
+  }
+  .dishes__title {
+    margin-top: 30px;
   }
 }

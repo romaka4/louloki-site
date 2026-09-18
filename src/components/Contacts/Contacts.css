@@ -3,11 +3,14 @@
   flex-direction: column;
   align-items: center;
 }
-
+.contacts__title {
+  margin-top: 150px;
+}
 .contacts__list {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 30px;
 }
 .contact__item {
   display: flex;
@@ -23,16 +26,26 @@
 .contact__description {
 
 }
+.contact__btn {
+  margin-top: 40px;
+}
 
-@media(max-width: 658px) {
+@media(max-width: 658px) { 
+  .contacts__title {
+    margin-top: 50px;
+  }
   .contacts__list {
     flex-direction: column;
     align-items: center;
+    gap: 40px;
   }
   .contact__item{
     margin: 0;
   }
   .contact__title, .contact__link, .contact__description, .contact__time {
     text-align: center;
+  }
+  .contact__btn {
+    margin-top: 10px;
   }
 }

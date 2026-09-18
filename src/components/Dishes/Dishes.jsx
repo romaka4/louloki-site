@@ -26,7 +26,7 @@ function Dishes() {
     if (difference > 50) {
       nextDish();
     }
-    if (difference < 50) {
+    if (difference < -50) {
       prevDish();
     }
     setTouchStart(null);
