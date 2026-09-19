@@ -20,9 +20,9 @@ function Galery() {
     )
   }
   return (
-    <section className='container'>
-      <div className='galery'>
-        <h2 className='dishes__title'>Фотографии интерьера</h2>
+    <section className='section'>
+      <div className='galery container'>
+        <h2 className='section__title'>Фотографии интерьера</h2>
                 <div className='galery__images'>
                   {galeryPhoto.map((photo, index) => (
                       <div className='galery__item' 

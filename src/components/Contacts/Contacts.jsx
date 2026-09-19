@@ -2,15 +2,15 @@ import './Contacts.css'
 import { restaurants } from '../../data/restaurant'
 function Contacts() {
   return(
-    <section className='contacts'>
-      <div className='container'>
-        <h1 className='contacts__title'>Контакты</h1>
+    <section className='section'>
+      <div className='contacts container'>
+        <h2 className='section__title'>Контакты</h2>
         <div className='contacts__list'>
             { restaurants.map((restaurant) => (
               <div className='contact__item' key={restaurant.id}>
-                <h2 className='contact__title'>
+                <h3 className='contact__title'>
                   {restaurant.title}
-                </h2>
+                </h3>
               <a href={restaurant.mapUrl} className="contact__description">
                       г. Ростов-на-Дону, <br/> {restaurant.address}
                     </a>
@@ -22,9 +22,9 @@ function Contacts() {
             </div>
             )) }
             <div className='contact__item' >
-                <h2 className='contact__title'>
+                <h3 className='contact__title'>
                   График работы
-                </h2>
+                </h3>
                 <p className='contact__time'>Пн - Вс 11:00 - 23:00</p>
               
             </div>

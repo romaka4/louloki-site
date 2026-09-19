@@ -34,9 +34,9 @@ function Dishes() {
 
 
   return (
-    <section className='dishes'>
+    <section className='dishes section'>
       <div className='container dishes__block'>
-        <h2 className='dishes__title'>Фотографии</h2>
+        <h2 className='section__title'>Фотографии</h2>
         <div className='dishes__list'>
           {dishes.map((dish, index) => (
               <div className='dishes__item' 

@@ -6,10 +6,10 @@ function Hero() {
   return (
     
       <section
-        className="hero"
+        className="section hero"
         style={{ backgroundImage: `url(${imageRest})` }}
       >
-        <div className="container">
+        <div className="hero__container container">
         <h1 className='hero__title'>Lou-Loki</h1>
         <p className='hero__text'>Проект современной азиатской кухни</p>
         <a href="https://eda.yandex.ru/?redirectFrom=not_found_place" className='hero__btn-delivery' target="_blank">

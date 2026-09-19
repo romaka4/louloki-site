@@ -11,6 +11,8 @@
   --radius: 12px;
 
   --section-padding: 80px;
+  --font-body: "Manrope", sans-serif;
+  --font-heading: "Playfair Display", serif;
 }
 html {
   scroll-behavior: smooth;
@@ -18,7 +20,10 @@ html {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: var(--font-body);
+  font-weight: 400;
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
 img {
@@ -41,10 +46,15 @@ ul {
   padding: 0;
 }
 
-body {
-  background: var(--color-bg);
-  color: var(--color-text);
-}
 h1, h2, h3, h4, h5 {
   margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
 }

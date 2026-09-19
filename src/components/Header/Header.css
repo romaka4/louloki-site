@@ -85,7 +85,13 @@
   max-height: 64px;
   justify-content: end;
 }
-
+.header__logo-title {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  margin: auto 0;
+  font-weight: 700;
+  color: #ff6e00;
+}
 .header__logo {
   width: 310px;
   height: 80px;
@@ -126,6 +132,12 @@
   margin: 0;
   font-size: 14px;
   color: #555;
+}
+
+@media (max-width: 890px) {
+  .header__logo-title {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 768px) {

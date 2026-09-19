@@ -3,8 +3,6 @@
   display: block;
 }
 .dishes__title {
-  margin-bottom: 40px;
-  text-align: center;
 }
 .dishes__list {
   display: flex;

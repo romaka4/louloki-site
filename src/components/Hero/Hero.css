@@ -9,12 +9,15 @@
   flex-direction: column;
   gap: 20px;
 }
-
+.hero__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
 .hero__title {
-  margin: 0;
-  color: white;
   text-align: center;
-  font-size: 60px;
+  color: white;
 }
 .hero__text {
   margin: 0;
@@ -23,11 +26,14 @@
   font-size: 28px;
 }
 .hero__btn-delivery {
+  font-weight: 500;
+  font-size: 18px;
   width: 290px;
   height: 60px;
   display: flex;
   margin: 0 auto;
-  background: #ff3030;
+ 
+  background: #ff0000;
   align-items: center;
   justify-content: center;
   color: white;
@@ -35,6 +41,5 @@
   transition: 0.3s ease;
 }
 .hero__btn-delivery:hover {
-  background: #ffb9b9;
-  color: #111;
+  background: #ff6710e6;
 }

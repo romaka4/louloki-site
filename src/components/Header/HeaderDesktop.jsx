@@ -1,12 +1,13 @@
-import logo from '../../assets/logo.webp'
+// import logo from '../../assets/logo.webp'
 import  { restaurants } from '../../data/restaurant'
 
 function HeaderDesktop() {
   return (
     <div className='container header-desktop'>
-            <img src={logo} 
+            {/* <img src={logo} 
             alt="Логотип Lou-Loki" 
-            className='header__logo' />
+            className='header__logo' /> */}
+            <a href="_blank" className='header__logo-title'>LOU-LOKI</a>
             <div className='header__contacts'>
             {restaurants.map((restaurant) => (
               <div className='header__contact' key={restaurant.id}>

@@ -3,10 +3,12 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
-  display: contents;
 }
 .section {
   padding: var(--section-padding) 0;
+}
+.section__title{
+  
 }
 @media (max-width: 968px) {
   .container {
@@ -22,5 +24,8 @@
 
   :root {
     --section-padding: 50px;
+  }
+  h2 {
+    margin-bottom: 20px;
   }
 }
