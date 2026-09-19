@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from '../../assets/logo.webp'
+
 import  { restaurants } from '../../data/restaurant'
 
 function HeaderMobile() {
@@ -20,9 +20,7 @@ function HeaderMobile() {
       </div>
         
         <div className= {`header-mobile__contacts ${isOpen ? "active" : ""}` }>
-          <img src={logo} 
-                      alt="Логотип Lou-Loki" 
-                      className='header__logo' />
+                      <a href="_blank" className='header__logo-title'>LOU-LOKI</a>  
                       <div className='header__contacts'>
                       {restaurants.map((restaurant) => (
                         <div className='header__contact' key={restaurant.id}>

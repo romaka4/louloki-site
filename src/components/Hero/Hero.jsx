@@ -1,7 +1,7 @@
 
 import './Hero.css';
 // import heroImg from "../../assets/hero-img.webp";
-import imageRest from '../../assets/image-rest.png'
+import imageRest from '../../assets/hero-photo.webp'
 function Hero() {
   return (
     

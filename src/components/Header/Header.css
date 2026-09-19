@@ -98,7 +98,6 @@
 }
 
 .header__contacts {
-  height: 80px;
   display: flex;
   justify-content: end;
   
@@ -144,6 +143,9 @@
   .header-desktop {
     display: none;
   }
+  .header__logo-title {
+    font-size: 36px;
+  }
   .header-mobile {
     display: flex;
     flex-direction: column;
@@ -167,10 +169,10 @@
     flex-direction: column;
   }
   .header__contact {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
   }
   .header__logo {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
 }
