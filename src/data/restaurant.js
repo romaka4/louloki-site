@@ -14,14 +14,14 @@ import dish10 from '../assets/dishes/dish10.png'
 import dish11 from '../assets/dishes/dish11.png' 
 import dish12 from '../assets/dishes/dish12.png' 
 
-import galery1 from '../assets/galery/galery1.png' 
-import galery2 from '../assets/galery/galery2.png' 
-import galery3 from '../assets/galery/galery3.png' 
-import galery4 from '../assets/galery/galery4.png' 
-import galery5 from '../assets/galery/galery5.png' 
-import galery6 from '../assets/galery/galery6.png' 
-import galery7 from '../assets/galery/galery7.png' 
-import galery8 from '../assets/galery/galery8.png' 
+import interior1 from '../assets/interior/galery1.png' 
+import interior2 from '../assets/interior/galery2.png' 
+import interior3 from '../assets/interior/galery3.png' 
+import interior4 from '../assets/interior/galery4.png' 
+import interior5 from '../assets/interior/galery5.png' 
+import interior6 from '../assets/interior/galery6.png' 
+import interior7 from '../assets/interior/galery7.png' 
+import interior8 from '../assets/interior/galery8.png' 
 
 export const restaurants = [
 {
@@ -111,45 +111,45 @@ export const dishes = [
 
 ]
 
-export const galeryPhoto = [
+export const interiorPhoto = [
   {
     id: 1,
     title: 'Фото1',
-    image: galery1
+    image: interior1
   },
   {
     id: 2,
     title: 'Фото2',
-    image: galery2
+    image: interior2
   },
   {
     id: 3,
     title: 'Фото3',
-    image: galery3
+    image: interior3
   },
   {
     id: 4,
     title: 'Фото4',
-    image: galery4
+    image: interior4
   },
   {
     id: 5,
     title: 'Фото5',
-    image: galery5
+    image: interior5
   },
   {
     id: 6,
     title: 'Фото6',
-    image: galery6
+    image: interior6
   },
   {
     id: 7,
     title: 'Фото7',
-    image: galery7
+    image: interior7
   },
   {
     id: 8,
     title: 'Фото8',
-    image: galery8
+    image: interior8
   }
 ]

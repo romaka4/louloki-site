@@ -4,7 +4,7 @@ import Hero from './components/Hero/Hero.jsx'
 import About from './components/About/About.jsx'
 import Dishes from './components/Dishes/Dishes.jsx'
 import Shef from './components/Shef/Shef.jsx'
-import Galery from './components/Galery/Galery.jsx'
+import Interior from './components/Interior/Interior.jsx'
 import Contacts from './components/Contacts/Contacts.jsx'
 import Footer from './components/Footer/Footer.jsx'
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <About />
     <Dishes />
     <Shef />
-    <Galery />
+    <Interior />
     <Contacts />
     <Footer />
   </>

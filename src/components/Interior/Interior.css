@@ -1,12 +1,12 @@
-.galery {
+.interior {
  text-align: center;
 }
-.galery__image {
+.interior__image {
 
 }
 .dishes__title {
 }
-.galery__images {
+.interior__images {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -14,11 +14,11 @@
   justify-content: space-between;
 }
 
-.galery__item {
+.interior__item {
   flex: 0 0 260px;
   height: 206px;
 }
-.galery__image {
+.interior__image {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -27,13 +27,13 @@
 }
 
 @media (max-width: 878px) {
-  .galery__images {
+  .interior__images {
     justify-content: center;
   }
 }
 
 @media (max-width: 550px) {
-  .galery__item {
+  .interior__item {
     flex: 0 0 380px;
   }
 }
